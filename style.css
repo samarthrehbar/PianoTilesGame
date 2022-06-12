@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .header{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin-left: auto;
+  text-align: center;
+  justify-content: center;
+  margin-top: 3%;
+  display: inline-block;
+  }
+  .score{ 
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(237, 237, 35);
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+  }
+  
+  .btn{
+      border-radius: 30px;
+      padding: 15px;
+      margin: 10px;
+      text-align: center;
+      justify-content: center;
+      background: transparent;
+      font-weight: bold;
+      color: white;
+      border: 2px solid rgb(184, 227, 28);
+  }
+  
+  .strt-btn{
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+  }
+  
+  body{
+    background: url('905234_background-images-for-html-hd-wallpapers-and-pictures_1920x1080_h.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .tiles{
+    margin-top: 15%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .box {
+    height: 90px;
+    width :  90px;
+    border: 2px solid rgb(111, 114, 117);
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
